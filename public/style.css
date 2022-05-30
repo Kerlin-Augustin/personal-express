@@ -1,0 +1,16 @@
+section{
+  text-align: center;
+  background: rgb(219, 216, 216);
+}
+
+h1{
+  font-size: 5rem;
+}
+
+body{
+  background: url('./img/plato2.gif');
+}
+
+li{
+  list-style: none;
+}

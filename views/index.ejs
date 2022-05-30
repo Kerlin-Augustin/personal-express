@@ -1,0 +1,52 @@
+<!-- index.ejs -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Allegory of the cave.</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body>
+    <section>
+    <h1 id="changeContent">Our Allegory of the Cave</h1>
+
+    <form action="/quotes" method="POST">
+      <input type="text" placeholder="name" name="name" />
+      <input type="text" placeholder="quote" name="quote" />
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2> Create a philosophy quote </h2>
+
+    <ul class="quotes">
+      <!-- Loop through quotes -->
+      <% for(var i = 0; i < quotes.length; i++) {%>
+        <li class="quote">
+          <!-- Output name from the iterated quote object -->
+          <span><%= quotes[i].name %></span>:
+          <!-- Output quote from the iterated quote object -->
+          <span><%= quotes[i].quote %></span>
+        </li>
+      <% } %>
+    </ul>
+    <div>
+      <h2>Let wisdom speak!</h2>
+      <p>
+        Knowledge is power!
+      </p>
+      <button id="update-button">Wisdom</button>
+    </div>
+    <div>
+      <h2>Remove some wisdom!</h2>
+      <p>
+        Delete one wisdom quote. Does nothing if there are no more wisdom quotes.
+      </p>
+      <button id="delete-button">Delete Wisdom quote</button>      
+    </div>
+
+      <div id="message"></div>
+  </section>
+    <script src="main.js"></script>
+  </body>
+</html>
