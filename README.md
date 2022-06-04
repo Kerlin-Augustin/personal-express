@@ -1,4 +1,4 @@
-# My Awesome Project
+# Allegory of the Cave
 This website lets you input a quote. Specifically a philosophical quote. If you cannot think of one you can click a button and three quotes will be generated for you. If you don't like the generated quotes feel free to delete them. But your quotes shall be set in stone.
 
 ![plato2](https://user-images.githubusercontent.com/102834611/171968447-35ee3976-986c-4a25-90d8-6b58bee7e0db.gif)
