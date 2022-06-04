@@ -1,21 +1,14 @@
 # My Awesome Project
-Write a short sentence or two about this project and what it does. Be sure to include a link and a screenshot (we're front end devs so we can actually see our work!).
+This website lets you input a quote. Specifically a philosophical quote. If you cannot think of one you can click a button and three quotes will be generated for you. If you don't like the generated quotes feel free to delete them. But your quotes shall be set in stone.
 
-**Link to project:** http://recruiters-love-seeing-live-demos.com/
-
-![alt tag](http://placecorgi.com/1200/650)
+![plato2](https://user-images.githubusercontent.com/102834611/171968447-35ee3976-986c-4a25-90d8-6b58bee7e0db.gif)
 
 ## How It's Made:
 
-**Tech used:** HTML, CSS, JavaScript, Framework of choice
+**Tech used:** HTML, CSS, JavaScript
 
-Here's where you can go to town on how you actually built this thing. Write as much as you can here, it's totally fine if it's not too much just make sure you write *something*. If you don't have too much experience on your resume working on the front end that's totally fine. This is where you can really show off your passion and make up for that ten fold.
-
-## Optimizations
-*(optional)*
-
-You don't have to include this section but interviewers *love* that you can not only deliver a final product that looks great but also functions efficiently. Did you write something then refactor it later and the result was 5x faster than the original implementation? Did you cache your assets? Things that you write in this section are **GREAT** to bring up in interviews and you can use this section as reference when studying for technical interviews!
+My learning was focused on the storing of data in a database to generate information to the dom later as well as allowing people to post comments. This website was the perfect opportunity to allow me to practice storing preset data then and posting on command of the user as well as posting comments into a section for users to see.
 
 ## Lessons Learned:
 
-No matter what your experience level, being an engineer means continuously learning. Every time you build something you always have those *whoa this is awesome* or *fuck yeah I did it!* moments. This is where you should share those moments! Recruiters and interviewers love to see that you're self-aware and passionate about growing.
+I learned that the index.html keeps your code static. Index.ejs lets you be more dynamic with your coding allowing you to add javascript in your html code and utilize your database. 
